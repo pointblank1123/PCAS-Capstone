@@ -6,10 +6,10 @@ Pcas is a custom built password manager web application that includes standard p
 ### Improvements
 There are several improvements would need to be made for full functionality
 -  Security Improvements
-  -  the password database is not currently encrypted
-  -  SQL Injection risk
-  -  Better Password handling
-  -  Segregation of password storage tables between users
+    -  the password database is not currently encrypted
+    -  SQL Injection risk
+    -  Better Password handling
+    -  Segregation of password storage tables between users
 - At scale calling of the compromised password API is not practical, password checking would need to utilize a locally stored list of compromised passwords that is updated on a regular basis
 ### Future
 As things sit I don't plan on continuing with the project beyond the scope of this capstone project however, possible additional features our group did consider were
